@@ -5,27 +5,6 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-
-  .navbar-right {
-    padding: 0 30px 0 0;
-  }
-
-  .navbar-right li a {
-    padding: 35px 15px;
-  }
-
-  .fixed-menu .container {
-    width: 100%;
-  }
-
-  .fixed-menu .navbar-right {
-    padding-right: 30px;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 20px;
-  }
-
   
   #countdown li {
     margin-right: 30px;
@@ -55,34 +34,19 @@
 }
 
 /* sm */
+@media (min-width: 768px) {
+  /* hide the button in desktop view */
+  .main-menu-btn {
+    position: absolute;
+    top: -99999px;
+  }
+  /* always show the menu in desktop view */
+  #main-menu-state:not(:checked) ~ #main-menu {
+    display: block;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
-
-  .navbar-brand {
-    width: 215px;
-    height: 60px;
-  }
-
-  .navbar-right {
-    padding: 0;
-  }
-
-  .navbar-right li a {
-    padding:20px 11px;
-    font-size: 17px;
-  }
-
-  .fixed-menu .container {
-    width: 100%;
-  }
-
-  .fixed-menu .navbar-right {
-    padding-right: 30px;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 20px 15px;
-    font-size: 17px;
-  }
+ #main-nav { background: #333;}
  
  #countdown li {
   margin-right: 15px;
@@ -121,7 +85,16 @@
 
 /* xs */
 @media (max-width: 767px) {
-
+	#title{
+		width: 25%;
+		text-align:left;
+		padding-top:3%;
+	}
+	#title img{
+		width: 70%;
+		height: auto;
+	}
+	#main-nav { text-align:right;}
   .main-nav .container {
     display: none;
   }
@@ -143,7 +116,7 @@
   }
 
   #home {
-    margin-top: 10%;
+    margin-top: 0;
   }
 
   #main-slider .carousel-caption {
@@ -294,7 +267,7 @@
   /* Home */
 
   #home {
-    margin-top: 18%;
+    margin-top: 0%;
   }
 
   .fixed-menu .container {
