@@ -583,11 +583,7 @@ h2 {
 **************************/
 
 #sponsor {
-  background-color: #1881a2;
-  background-image: url("../images/sponsor-bg.jpg");
-  background-position:50% 0;
-  background-size: cover;
-  background-repeat:no-repeat;
+  background-color: #fff;
   position: relative;
 }
 
@@ -626,7 +622,7 @@ h2 {
 
 .sponsor-control-left, 
 .sponsor-control-right {
-  color: #FFFFFF;
+  color: #222;
   font-size: 24px;
   position: absolute;
   top: 20%;
