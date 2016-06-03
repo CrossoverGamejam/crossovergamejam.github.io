@@ -4,7 +4,7 @@ function initialize(){
 
 	var d = new Date();
 	var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
-	var feed = new google.feeds.Feed("https://crossoverlink.wordpress.com/feed/"+"?"+dq); //読み込むRSSフィードを設定します
+	var feed = new google.feeds.Feed("https://crossoverlink.wordpress.com/category/crossovergamejam02/feed/"+"?"+dq); //読み込むRSSフィードを設定します
 	var noPhoto = ("<img src='画像がなかった場合に表示する画像のURL' />"); //画像がなかった場合に表示する画像を指定します
 	var body = "";
 	
