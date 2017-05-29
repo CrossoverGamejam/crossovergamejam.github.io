@@ -75,8 +75,8 @@ jQuery(function($) {'use strict',
 
 	map = new GMaps({
 		el: '#gmap',
-		lat: 35.626628, //開催場所の緯度
-		lng: 139.7382424, //開催場所の経度
+		lat: 35.6266743, //開催場所の緯度
+		lng: 139.7381806, //開催場所の経度
 		scrollwheel:false,
 		zoom: 16,
 		zoomControl : true,
@@ -89,8 +89,8 @@ jQuery(function($) {'use strict',
 
 	var image = 'images/map-icon.png';
 	map.addMarker({
-		lat: 35.626628, //開催場所の緯度
-		lng: 139.7382424, //開催場所の経度
+		lat: 35.6266743, //開催場所の緯度
+		lng: 139.7381806, //開催場所の経度
 		icon: image,
 		animation: google.maps.Animation.DROP,
 		verticalAlign: 'bottom',
