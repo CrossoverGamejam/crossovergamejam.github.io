@@ -7,7 +7,7 @@ body{
   background-color: #F8F8F8;
 }
 
-h1,h2,h3,h4{
+h1,h2{
   margin: 0 0 4rem 0;
 }
 
@@ -24,7 +24,7 @@ a:link { color: #F8F8F8; }
   background-image: url(images/earth.png),url(images/backcircle.png);
   background-repeat: no-repeat;
   background-attachment: fixed,fixed;
-  background-position: right,center center;
+  background-position: 100% 0%,center center;
 }
 
 .about{
@@ -55,9 +55,17 @@ a:link { color: #F8F8F8; }
 
 /* Panels */
 
+/* For smartphone */
+@media only screen and (max-width: 479px) {
+  .panel{
+    margin: 0 1rem ;
+  }
+}
+
 .panel{
   margin: 0 3rem ;
 }
+
 
 .panel img{
   margin: 0 auto;
@@ -115,6 +123,7 @@ a:link { color: #F8F8F8; }
 	.cover-img {
 		height: 218px;
     width: 218px;
+    margin-bottom: 2rem;
 	}
 }
 
@@ -123,7 +132,11 @@ a:link { color: #F8F8F8; }
 	.cover-img {
 		height: 148px;
     width: 148px;
+    margin-bottom: 2rem;
 	}
+  .cover-text p{
+    font-size: 1.25rem;
+  }
 }
 
 .cover-text {
@@ -148,6 +161,8 @@ a:link { color: #F8F8F8; }
   padding: 25px 25px 25px 200px;
   margin-bottom: 20rem;
 }
+
+
 .venncirctop {
   padding: 18px;
   width: 280px;
