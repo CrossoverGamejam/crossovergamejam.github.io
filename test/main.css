@@ -123,7 +123,7 @@ a:link { color: #F8F8F8; }
 	.cover-img {
 		height: 218px;
     width: 218px;
-    margin-bottom: 2rem;
+        margin:0 2rem 2rem 0;
 	}
 }
 
@@ -132,7 +132,7 @@ a:link { color: #F8F8F8; }
 	.cover-img {
 		height: 148px;
     width: 148px;
-    margin-bottom: 2rem;
+    margin:0 2rem 2rem 0;
 	}
   .cover-text p{
     font-size: 1.25rem;
@@ -153,15 +153,13 @@ a:link { color: #F8F8F8; }
 
 /* works */
 
-
 /* What We Do */
 
 /*over rapping*/
 .venn-container {
-  padding: 25px 25px 25px 200px;
-  margin-bottom: 20rem;
+  padding: 0px 25px 25px 100px;
+  margin-bottom: 24rem;
 }
-
 
 .venncirctop {
   padding: 18px;
@@ -304,4 +302,24 @@ left: 35%;
 .venntxtlft:hover {
   color: #FFFFFF;
   text-decoration:none;
+}
+
+/* For smartphone */
+@media only screen and (max-width: 479px) {
+  .venncirctop {
+    width: 200px;
+    height: 200px;
+  }
+
+  .venncirclft {
+    padding: 18px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .venncircrt {
+    padding: 18px;
+    width: 200px;
+    height: 200px;
+  }
 }
