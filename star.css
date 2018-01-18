@@ -19,9 +19,10 @@
     width: 48px;
     height: 48px;
     background: #FFF;
+    background-size: auto;
 
     overflow: hidden;
-    z-index: -1;
+    z-index: -10;
     animation: glitter 4.5s linear 0s infinite normal;
     -webkit-animation: glitter 4.5s linear 0s infinite normal;
     -moz-animation: glitter 4.5s linear 0s infinite normal;
